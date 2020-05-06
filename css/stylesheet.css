@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Convergence-Regular';
+    src: url('../font/Convergence-Regular.ttf') format('truetype');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Convergence-Regular';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+.navbar {
+    background-color: #353435e6;
+}
+
+.navbar-brand {
+    text-align: center;    
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #F6B93B ;
+    font-weight: bold;
+    color:  rgba(53, 52, 53,0.9) !important;
+}
+
+.navbar-brand:hover {
+    color: white !important;
+}
+
+.nav-item {
+    color: white !important;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .hub {
+    text-align: center;
+    border-radius: 5em/5em;
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+}
+
+.navbar-nav .hub:hover {
+    background-color: white;
+    color: rgba(53, 52, 53,0.9) !important;
+}
+
+.submenu:hover {
+    color:  #F6B93B !important;
+}
+
+/* hero */
+.jumbotron {
+    background-image: url('../img/hero_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.sub-container {
+    padding-top: 180px;
+    padding-bottom: 50px;    
+}
+
+.hello, .card-title {
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+
+
+.hello, .dream {
+    color: white;
+}
+
+ .koma, .me, .resume {
+    color: #F6B93B;
+}
+
+.koma {
+    -webkit-text-stroke: 0.1px white;
+}
+
+.dream {
+    padding-bottom: 70px;
+}
+
+.aboutme {
+    border-radius: 5em/5em;
+    font-size: 18px;
+}
+
+/* about me */
+.card, .aboutme-container{
+    background-color: #D1CCC0;
+}
+
+.resume {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.card-container {
+    padding-top: 120px;
+    padding-bottom: 50px;    
+}
+
+.card-title {
+    text-shadow: 1px 1px 2px black;
+}
+
+.card {
+    border-color: #D1CCC0;
+}
+
+.card-text {
+    padding-bottom: 12px;
+}
+
+.fa-linkedin-square {
+    color: black;
+    animation: pound .35s infinite alternate;
+    -webkit-animation: pound .35s infinite alternate;
+}
+
+.fa-linkedin-square:hover {
+    color: #F6B93B;
+}
+
+
+
+/* my work */
+.work-wrapper {
+    border-bottom: 1px solid #D1CCC0;
+    padding: 20px 0 40px 0;
+}
+
+/* footer */
+footer {
+    border-top: 1px solid #D1CCC0;
+}
+
+/* love footer */
+.love {
+    color: #E90606;
+    margin: 0 3px;
+    font-size: 10px;
+    animation: pound .35s infinite alternate;
+    -webkit-animation: pound .35s infinite alternate;
+}
+    
+@-webkit-keyframes pound {
+    to{
+        transform: scale(1.1);
+    }
+}
+  
+@keyframes pound {
+    to {
+        transform: scale(1.1);
+    } 
+}
+
+/* css name */
+ 
+.myname {
+    font-weight: bold;
+    padding-bottom: 12px;
+    color: #F6B93B;
+    text-shadow: 2px 2px 4px black;
+}
+
